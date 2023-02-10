@@ -19,7 +19,7 @@ class bank_acc:
             print("Withdrawal error, try smaller amount. Your current balance is ", a.balance, ". Thank You for using our bank, ", a.owner, "<3")#, sep = "")
 
 u1 = bank_acc("MyMelody", 15)
-u2 = bank_acc(0, 0)
+u2 = bank_acc("Kuromi", 0)
 u2.inp()
 u1.deposit(13)
 u1.withdraw(5)
